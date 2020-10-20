@@ -39,8 +39,9 @@ public class Main {
         ArrayList<String> frogFood = new ArrayList<>();
         frogFood.add("Insects");
         Habitat frogHouse = new Habitat("Water");
+        InternalAttributes frogInternal = new InternalAttributes("Skin", 1, "Lymph", false);
 
-        Amphibian frog = new Amphibian("Frog", 4, "Croak", "Amphibian", frogFood, frogHouse);
+        Amphibian frog = new Amphibian("Frog", 4, "Croak", "Amphibian", frogFood, frogHouse, frogInternal);
         frog.aboutMe();
         frog.notHuman();
         frog.canWalk();

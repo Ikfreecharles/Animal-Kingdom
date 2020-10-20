@@ -7,8 +7,8 @@ public class Mammal extends Kingdom{
     private final boolean hasTail;
     private final int lengthOfTail;
 
-    public Mammal(String name, int legs, String sound, String family, ArrayList<String> food, int noOfBackbone, boolean hasTail, int lengthOfTail, Habitat habitat){
-        super(name, legs, sound, family, food, habitat);
+    public Mammal(String name, int legs, String sound, String family, ArrayList<String> food, int noOfBackbone, boolean hasTail, int lengthOfTail, Habitat habitat, InternalAttributes internal){
+        super(name, legs, sound, family, food, habitat, internal);
         this.noOfBackbone = noOfBackbone;
         this.hasTail = hasTail;
         this.lengthOfTail = lengthOfTail;
